@@ -1,7 +1,7 @@
-name: pixel_perfect_ui
+name: el_kit
 version: 0.0.1-dev
-homepage: https://github.com/shipmnts/pixel-perfect-ui
-description: Pixel Perfect UI is a Flutter package that helps you to create UIs without material package.
+homepage: https://github.com/shipmnts/el-kit
+description: EL Kit is a Flutter package that helps you to create UIs without material package.
 
 environment:
   sdk: ^3.5.4

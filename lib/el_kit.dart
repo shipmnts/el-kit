@@ -1,4 +1,4 @@
-library common;
+library el_kit;
 
 export 'material/widgets/text.dart';
 export 'material/widgets/column.dart';
