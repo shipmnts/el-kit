@@ -181,4 +181,7 @@ export 'package:flutter/material.dart'
         ConnectionState,
         RelativeRect,
         Rect,
-        BoxShadow;
+        BoxShadow,
+        BackButton,
+        SliverToBoxAdapter,
+        FlexibleSpaceBar;
