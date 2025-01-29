@@ -54,6 +54,7 @@ export 'material/widgets/filterchip.dart';
 export 'coustom/custom_card.dart';
 export 'coustom/custom_button.dart';
 export 'coustom/detail_row.dart';
+export 'coustom/search_field.dart';
 
 export 'package:flutter/material.dart'
     show
