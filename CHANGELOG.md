@@ -1,3 +1,7 @@
+## 0.0.4-dev
+
+- Added AlwaysStoppedAnimation, ValueChanged
+
 ## 0.0.3-dev
 
 - Added Search_field

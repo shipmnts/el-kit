@@ -184,4 +184,6 @@ export 'package:flutter/material.dart'
         BoxShadow,
         BackButton,
         SliverToBoxAdapter,
-        FlexibleSpaceBar;
+        FlexibleSpaceBar,
+        AlwaysStoppedAnimation,
+        ValueChanged;
