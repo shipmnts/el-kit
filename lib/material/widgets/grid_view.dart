@@ -2,13 +2,10 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/material.dart' as material;
 
-class GridView<T> extends StatelessWidget {
-  final List<T> items;
-  final Widget Function(BuildContext, T) itemBuilder;
-  final int crossAxisCount;
-  final double mainAxisSpacing;
-  final double crossAxisSpacing;
-  final double childAspectRatio;
+class GridView extends StatelessWidget {
+  final SliverGridDelegate gridDelegate;
+  final IndexedWidgetBuilder itemBuilder;
+  final List items;
   final EdgeInsetsGeometry padding;
   final ScrollPhysics? physics;
   final bool shrinkWrap;
@@ -26,13 +23,10 @@ class GridView<T> extends StatelessWidget {
   final String? restorationId;
 
   const GridView({
-    Key? key,
+    super.key,
     required this.items,
+    required this.gridDelegate,
     required this.itemBuilder,
-    this.crossAxisCount = 2,
-    this.mainAxisSpacing = 8.0,
-    this.crossAxisSpacing = 8.0,
-    this.childAspectRatio = 1.0,
     this.padding = const EdgeInsets.all(8.0),
     this.physics,
     this.shrinkWrap = false,
@@ -48,20 +42,15 @@ class GridView<T> extends StatelessWidget {
     this.dragStartBehavior = DragStartBehavior.start,
     this.keyboardDismissBehavior = false,
     this.restorationId,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
     return material.GridView.builder(
       padding: padding,
-      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: crossAxisCount,
-        mainAxisSpacing: mainAxisSpacing,
-        crossAxisSpacing: crossAxisSpacing,
-        childAspectRatio: childAspectRatio,
-      ),
+      gridDelegate: gridDelegate,
       itemCount: items.length,
-      itemBuilder: (context, index) => itemBuilder(context, items[index]),
+      itemBuilder: itemBuilder,
       physics: physics,
       shrinkWrap: shrinkWrap,
       primary: primary,

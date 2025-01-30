@@ -186,4 +186,5 @@ export 'package:flutter/material.dart'
         SliverToBoxAdapter,
         FlexibleSpaceBar,
         AlwaysStoppedAnimation,
-        ValueChanged;
+        ValueChanged,
+        SliverGridDelegateWithMaxCrossAxisExtent;

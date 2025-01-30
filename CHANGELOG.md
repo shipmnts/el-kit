@@ -1,3 +1,7 @@
+## 0.0.6-dev
+
+- Fixed GridView
+
 ## 0.0.5-dev
 
 - Added GridView
