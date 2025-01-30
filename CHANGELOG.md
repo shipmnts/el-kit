@@ -1,3 +1,7 @@
+## 0.0.5-dev
+
+- Added GridView
+
 ## 0.0.4-dev
 
 - Added AlwaysStoppedAnimation, ValueChanged
