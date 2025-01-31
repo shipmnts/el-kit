@@ -1,3 +1,7 @@
+## 0.0.7-dev
+
+- Add Tab, TabBar and TabBarView
+
 ## 0.0.6-dev
 
 - Fixed GridView

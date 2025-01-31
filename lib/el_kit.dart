@@ -51,10 +51,13 @@ export 'material/widgets/constrainedbox.dart';
 export 'material/widgets/animatedbuilder.dart';
 export 'material/widgets/sliverappbar.dart';
 export 'material/widgets/filterchip.dart';
-export 'coustom/custom_card.dart';
-export 'coustom/custom_button.dart';
-export 'coustom/detail_row.dart';
-export 'coustom/search_field.dart';
+export 'material/widgets/tab_bar.dart';
+export 'material/widgets/tab.dart';
+export 'material/widgets/tab_bar_view.dart';
+export 'custom/custom_card.dart';
+export 'custom/custom_button.dart';
+export 'custom/detail_row.dart';
+export 'custom/search_field.dart';
 
 export 'package:flutter/material.dart'
     show
@@ -187,4 +190,5 @@ export 'package:flutter/material.dart'
         FlexibleSpaceBar,
         AlwaysStoppedAnimation,
         ValueChanged,
-        SliverGridDelegateWithMaxCrossAxisExtent;
+        SliverGridDelegateWithMaxCrossAxisExtent,
+        DefaultTabController;
