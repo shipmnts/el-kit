@@ -1,3 +1,7 @@
+## 0.0.8-dev
+
+- Added SliverFillRemaining, NeverScrollableScrollPhysics and TabAlignment
+
 ## 0.0.7-dev
 
 - Add Tab, TabBar and TabBarView

@@ -187,8 +187,11 @@ export 'package:flutter/material.dart'
         BoxShadow,
         BackButton,
         SliverToBoxAdapter,
+        SliverFillRemaining,
+        NeverScrollableScrollPhysics,
         FlexibleSpaceBar,
         AlwaysStoppedAnimation,
         ValueChanged,
         SliverGridDelegateWithMaxCrossAxisExtent,
-        DefaultTabController;
+        DefaultTabController,
+        TabAlignment;

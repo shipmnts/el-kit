@@ -14,21 +14,22 @@ class TabBar extends StatelessWidget {
   final Color? unselectedLabelColor;
   final bool isScrollable;
   final Decoration? indicator;
+  final TabAlignment? tabAlignment;
 
-  const TabBar({
-    super.key,
-    required this.tabs,
-    this.controller,
-    this.indicatorColor,
-    this.indicatorWeight = 2.0,
-    this.labelPadding,
-    this.labelStyle,
-    this.unselectedLabelStyle,
-    this.labelColor,
-    this.unselectedLabelColor,
-    this.isScrollable = false,
-    this.indicator,
-  });
+  const TabBar(
+      {super.key,
+      required this.tabs,
+      this.controller,
+      this.indicatorColor,
+      this.indicatorWeight = 2.0,
+      this.labelPadding,
+      this.labelStyle,
+      this.unselectedLabelStyle,
+      this.labelColor,
+      this.unselectedLabelColor,
+      this.isScrollable = false,
+      this.indicator,
+      this.tabAlignment = TabAlignment.start});
 
   @override
   Widget build(BuildContext context) {
@@ -44,6 +45,7 @@ class TabBar extends StatelessWidget {
       unselectedLabelColor: unselectedLabelColor,
       isScrollable: isScrollable,
       indicator: indicator,
+      tabAlignment: tabAlignment,
     );
   }
 }
