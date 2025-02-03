@@ -1,3 +1,7 @@
+## 0.0.9-dev
+
+- Added ExpansionTile
+
 ## 0.0.8-dev
 
 - Added SliverFillRemaining, NeverScrollableScrollPhysics and TabAlignment

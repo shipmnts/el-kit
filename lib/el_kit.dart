@@ -194,4 +194,5 @@ export 'package:flutter/material.dart'
         ValueChanged,
         SliverGridDelegateWithMaxCrossAxisExtent,
         DefaultTabController,
-        TabAlignment;
+        TabAlignment,
+        ExpansionTile;
