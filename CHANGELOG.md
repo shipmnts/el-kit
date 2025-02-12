@@ -1,3 +1,7 @@
+## 0.0.11-dev
+
+-Added WidgetsBindingObserver,ValueKey,CircleBorder
+
 ## 0.0.10-dev
 
 - Added Builder

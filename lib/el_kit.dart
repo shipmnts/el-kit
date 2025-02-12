@@ -196,4 +196,7 @@ export 'package:flutter/material.dart'
         DefaultTabController,
         TabAlignment,
         ExpansionTile,
-        Builder;
+        Builder,
+        ValueKey,
+        WidgetsBindingObserver,
+        CircleBorder;
