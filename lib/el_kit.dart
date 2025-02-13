@@ -199,4 +199,5 @@ export 'package:flutter/material.dart'
         Builder,
         ValueKey,
         WidgetsBindingObserver,
-        CircleBorder;
+        CircleBorder,
+        Dialog;

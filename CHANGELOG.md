@@ -1,3 +1,7 @@
+## 0.0.12-dev
+
+-Added Dialog
+
 ## 0.0.11-dev
 
 -Added WidgetsBindingObserver,ValueKey,CircleBorder
