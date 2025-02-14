@@ -41,7 +41,23 @@ class ListView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    if (itemBuilder != null) {
+    if (separatorBuilder != null) {
+      return material.ListView.separated(
+        scrollDirection: scrollDirection,
+        reverse: reverse,
+        controller: controller,
+        primary: primary,
+        physics: physics,
+        shrinkWrap: shrinkWrap,
+        padding: padding,
+        itemCount: itemCount!,
+        itemBuilder: itemBuilder!,
+        separatorBuilder: separatorBuilder!,
+        keyboardDismissBehavior: keyboardDismissBehavior,
+        restorationId: restorationId,
+        clipBehavior: clipBehavior,
+      );
+    } else if (itemBuilder != null) {
       return material.ListView.builder(
         scrollDirection: scrollDirection,
         reverse: reverse,
@@ -54,22 +70,6 @@ class ListView extends StatelessWidget {
         prototypeItem: prototypeItem,
         itemCount: itemCount,
         itemBuilder: itemBuilder!,
-        keyboardDismissBehavior: keyboardDismissBehavior,
-        restorationId: restorationId,
-        clipBehavior: clipBehavior,
-      );
-    } else if (separatorBuilder != null) {
-      return material.ListView.separated(
-        scrollDirection: scrollDirection,
-        reverse: reverse,
-        controller: controller,
-        primary: primary,
-        physics: physics,
-        shrinkWrap: shrinkWrap,
-        padding: padding,
-        itemCount: itemCount!,
-        itemBuilder: itemBuilder!,
-        separatorBuilder: separatorBuilder!,
         keyboardDismissBehavior: keyboardDismissBehavior,
         restorationId: restorationId,
         clipBehavior: clipBehavior,
