@@ -201,4 +201,9 @@ export 'package:flutter/material.dart'
         WidgetsBindingObserver,
         CircleBorder,
         Dialog,
-        StatefulBuilder;
+        StatefulBuilder,
+        showDatePicker,
+        TimeOfDay,
+        showTimePicker,
+        Radio,
+        InlineSpan;
