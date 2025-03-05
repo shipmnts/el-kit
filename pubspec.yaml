@@ -1,11 +1,11 @@
 name: el_kit
-version: 0.0.16-dev
+version: 0.0.17-dev
 homepage: https://github.com/shipmnts/el-kit
 description: EL Kit is a Flutter package that helps you to create UIs without material package.
 
 environment:
   sdk: ^3.5.4
-  flutter: ">=1.17.0"
+  flutter: '>=1.17.0'
 
 dependencies:
   flutter:

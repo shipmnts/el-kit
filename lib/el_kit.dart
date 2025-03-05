@@ -207,4 +207,5 @@ export 'package:flutter/material.dart'
         showTimePicker,
         Radio,
         InlineSpan,
-        ScrollEndNotification;
+        ScrollEndNotification,
+        ScaffoldMessengerState;
