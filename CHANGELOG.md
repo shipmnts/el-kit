@@ -1,5 +1,9 @@
 ## 0.0.17-dev
 
+-Added SnackBarBehavior;
+
+## 0.0.17-dev
+
 -Added ScaffoldMessengerState;
 
 ## 0.0.16-dev

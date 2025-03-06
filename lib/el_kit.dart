@@ -208,4 +208,5 @@ export 'package:flutter/material.dart'
         Radio,
         InlineSpan,
         ScrollEndNotification,
-        ScaffoldMessengerState;
+        ScaffoldMessengerState,
+        SnackBarBehavior;
