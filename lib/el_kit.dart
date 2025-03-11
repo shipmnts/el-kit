@@ -209,4 +209,5 @@ export 'package:flutter/material.dart'
         InlineSpan,
         ScrollEndNotification,
         ScaffoldMessengerState,
-        SnackBarBehavior;
+        SnackBarBehavior,
+        ErrorWidget;

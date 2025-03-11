@@ -1,3 +1,7 @@
+## 0.0.19-dev
+
+-Added ErrorWidget;
+
 ## 0.0.18-dev
 
 -Added SnackBarBehavior;
