@@ -1,3 +1,7 @@
+## 0.0.20-dev
+
+-Change SearchField;
+
 ## 0.0.19-dev
 
 -Added ErrorWidget;
