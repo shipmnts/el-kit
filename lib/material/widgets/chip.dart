@@ -14,36 +14,37 @@ class Chip extends StatelessWidget {
   final Color? deleteIconColor;
   final String? tooltip;
   final VisualDensity? visualDensity;
+  final MaterialTapTargetSize? materialTapTargetSize;
 
-  const Chip({
-    super.key,
-    required this.label,
-    this.avatar,
-    this.labelStyle,
-    this.backgroundColor,
-    this.padding,
-    this.elevation,
-    this.shape,
-    this.onDeleted,
-    this.deleteIcon,
-    this.deleteIconColor,
-    this.tooltip,
-    this.visualDensity,
-  });
+  const Chip(
+      {super.key,
+      required this.label,
+      this.avatar,
+      this.labelStyle,
+      this.backgroundColor,
+      this.padding,
+      this.elevation,
+      this.shape,
+      this.onDeleted,
+      this.deleteIcon,
+      this.deleteIconColor,
+      this.tooltip,
+      this.visualDensity,
+      this.materialTapTargetSize});
 
   @override
   Widget build(BuildContext context) {
     return material.Chip(
-      avatar: avatar,
-      label: label,
-      backgroundColor: backgroundColor,
-      padding: padding,
-      elevation: elevation ?? 0.0,
-      shape: shape,
-      onDeleted: onDeleted,
-      deleteIcon: deleteIcon,
-      deleteIconColor: deleteIconColor,
-      visualDensity: visualDensity,
-    );
+        avatar: avatar,
+        label: label,
+        backgroundColor: backgroundColor,
+        padding: padding,
+        elevation: elevation ?? 0.0,
+        shape: shape,
+        onDeleted: onDeleted,
+        deleteIcon: deleteIcon,
+        deleteIconColor: deleteIconColor,
+        visualDensity: visualDensity,
+        materialTapTargetSize: materialTapTargetSize);
   }
 }
