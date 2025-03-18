@@ -1,3 +1,7 @@
+## 0.0.24-dev
+
+-Added TabController, FloatingActionButtonLocation
+
 ## 0.0.23-dev
 
 -Added TabController, FloatingActionButtonLocation
