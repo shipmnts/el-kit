@@ -210,4 +210,6 @@ export 'package:flutter/material.dart'
         ScrollEndNotification,
         ScaffoldMessengerState,
         SnackBarBehavior,
-        ErrorWidget;
+        ErrorWidget,
+        TabController,
+        FloatingActionButtonLocation;
