@@ -5,6 +5,7 @@ class TextButton extends StatelessWidget {
   final VoidCallback? onPressed;
   final VoidCallback? onLongPress;
   final Widget? child;
+  final Widget? icon;
   final ButtonStyle? style;
 
   const TextButton({
@@ -12,6 +13,7 @@ class TextButton extends StatelessWidget {
     this.onPressed,
     this.onLongPress,
     this.child,
+    this.icon,
     this.style,
   });
 
@@ -77,6 +79,15 @@ class TextButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    if (icon != null) {
+      return material.TextButton.icon(
+        onPressed: onPressed,
+        onLongPress: onLongPress,
+        icon: icon,
+        style: style,
+        label: child ?? const SizedBox.shrink(),
+      );
+    }
     return material.TextButton(
       onPressed: onPressed,
       onLongPress: onLongPress,

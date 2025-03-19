@@ -1,3 +1,7 @@
+## 0.0.25-dev
+
+- TextButton now takes an icon to show in prefix
+
 ## 0.0.24-dev
 
 -Added TabController, FloatingActionButtonLocation
