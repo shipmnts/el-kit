@@ -1,3 +1,7 @@
+## 0.0.26-dev
+
+- App release for internal testing.
+
 ## 0.0.25-dev
 
 - TextButton now takes an icon to show in prefix
