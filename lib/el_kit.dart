@@ -212,4 +212,7 @@ export 'package:flutter/material.dart'
         SnackBarBehavior,
         ErrorWidget,
         TabController,
-        FloatingActionButtonLocation;
+        FloatingActionButtonLocation,
+        InputDecorator,
+        DropdownButtonHideUnderline,
+        MaterialTapTargetSize;
