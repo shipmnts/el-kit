@@ -1,3 +1,7 @@
+## 0.0.27-dev
+
+- Added SlideTransition;
+
 ## 0.0.26-dev
 
 - App release for internal testing.
@@ -8,11 +12,11 @@
 
 ## 0.0.24-dev
 
--Added TabController, FloatingActionButtonLocation
+-Added TabController, FloatingActionButtonLocation;
 
 ## 0.0.23-dev
 
--Added TabController, FloatingActionButtonLocation
+-Added TabController, FloatingActionButtonLocation;
 
 ## 0.0.22-dev
 

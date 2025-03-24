@@ -215,4 +215,5 @@ export 'package:flutter/material.dart'
         FloatingActionButtonLocation,
         InputDecorator,
         DropdownButtonHideUnderline,
-        MaterialTapTargetSize;
+        MaterialTapTargetSize,
+        SlideTransition;
