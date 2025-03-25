@@ -1,3 +1,7 @@
+## 0.0.28-dev
+
+- Change in SearchField;
+
 ## 0.0.27-dev
 
 - Added SlideTransition;
