@@ -28,7 +28,7 @@ class SearchField extends StatelessWidget {
           style: Theme.of(context).textTheme.bodyLarge,
           decoration: InputDecoration(
             hintText: hintText,
-            hintStyle: Theme.of(context).textTheme.labelLarge,
+            hintStyle: Theme.of(context).textTheme.labelMedium,
             prefixIcon: hasText
                 ? IconButton(
                     icon: const Icon(Icons.arrow_back, size: 20),

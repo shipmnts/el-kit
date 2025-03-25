@@ -1,3 +1,7 @@
+## 0.0.29-dev
+
+- Change in SearchField hint text style;
+
 ## 0.0.28-dev
 
 - Change in SearchField;
