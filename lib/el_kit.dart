@@ -219,4 +219,6 @@ export 'package:flutter/material.dart'
         SlideTransition,
         TextInputAction,
         FocusScope,
-        FocusManager;
+        FocusManager,
+        TextDirection,
+        TextPainter;

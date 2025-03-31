@@ -1,3 +1,7 @@
+## 0.0.31-dev
+
+- Added TextPainter,TextDirection;
+
 ## 0.0.30-dev
 
 - Change in SearchField add unfocus on compleate,change textfield;
