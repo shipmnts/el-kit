@@ -23,31 +23,32 @@ class TextField extends StatelessWidget {
   final bool expands;
   final FocusNode? focusNode;
   final bool autofocus;
+  final VoidCallback? onEditingComplete;
 
-  const TextField({
-    super.key,
-    this.controller,
-    this.hintText,
-    this.labelText,
-    this.hintStyle,
-    this.labelStyle,
-    this.keyboardType,
-    this.textCapitalization = TextCapitalization.none,
-    this.obscureText = false,
-    this.maxLines = 1,
-    this.minLines,
-    this.decoration,
-    this.textInputAction,
-    this.onChanged,
-    this.onSubmitted,
-    this.enabled = true,
-    this.prefixIcon,
-    this.suffixIcon,
-    this.textAlignVertical,
-    this.expands = false,
-    this.focusNode,
-    this.autofocus = false,
-  });
+  const TextField(
+      {super.key,
+      this.controller,
+      this.hintText,
+      this.labelText,
+      this.hintStyle,
+      this.labelStyle,
+      this.keyboardType,
+      this.textCapitalization = TextCapitalization.none,
+      this.obscureText = false,
+      this.maxLines = 1,
+      this.minLines,
+      this.decoration,
+      this.textInputAction,
+      this.onChanged,
+      this.onSubmitted,
+      this.enabled = true,
+      this.prefixIcon,
+      this.suffixIcon,
+      this.textAlignVertical,
+      this.expands = false,
+      this.focusNode,
+      this.autofocus = false,
+      this.onEditingComplete});
 
   @override
   Widget build(BuildContext context) {
@@ -66,6 +67,7 @@ class TextField extends StatelessWidget {
       enabled: enabled,
       focusNode: focusNode,
       autofocus: autofocus,
+      onEditingComplete: onEditingComplete,
       decoration: decoration ??
           InputDecoration(
             hintText: hintText,

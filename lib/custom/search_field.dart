@@ -16,6 +16,8 @@ class SearchField extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final FocusNode localFocusNode = focusNode ?? FocusNode();
+
     return ValueListenableBuilder<TextEditingValue>(
       valueListenable: controller,
       builder: (context, value, child) {
@@ -23,8 +25,12 @@ class SearchField extends StatelessWidget {
 
         return TextField(
           controller: controller,
-          focusNode: focusNode,
+          focusNode: localFocusNode,
           onChanged: onChanged,
+          onEditingComplete: () {
+            localFocusNode.unfocus();
+          },
+          textInputAction: TextInputAction.done,
           style: Theme.of(context).textTheme.bodyLarge,
           decoration: InputDecoration(
             hintText: hintText,

@@ -216,4 +216,7 @@ export 'package:flutter/material.dart'
         InputDecorator,
         DropdownButtonHideUnderline,
         MaterialTapTargetSize,
-        SlideTransition;
+        SlideTransition,
+        TextInputAction,
+        FocusScope,
+        FocusManager;

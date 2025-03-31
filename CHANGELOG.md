@@ -1,3 +1,7 @@
+## 0.0.30-dev
+
+- Change in SearchField add unfocus on compleate,change textfield;
+
 ## 0.0.29-dev
 
 - Change in SearchField hint text style;
