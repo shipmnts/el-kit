@@ -24,6 +24,7 @@ class TextField extends StatelessWidget {
   final FocusNode? focusNode;
   final bool autofocus;
   final VoidCallback? onEditingComplete;
+  final GestureTapCallback? onTap;
 
   const TextField(
       {super.key,
@@ -48,7 +49,8 @@ class TextField extends StatelessWidget {
       this.expands = false,
       this.focusNode,
       this.autofocus = false,
-      this.onEditingComplete});
+      this.onEditingComplete,
+      this.onTap});
 
   @override
   Widget build(BuildContext context) {
@@ -66,6 +68,7 @@ class TextField extends StatelessWidget {
       expands: expands,
       enabled: enabled,
       focusNode: focusNode,
+      onTap: onTap,
       autofocus: autofocus,
       onEditingComplete: onEditingComplete,
       decoration: decoration ??

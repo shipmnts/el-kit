@@ -5,14 +5,15 @@ class SearchField extends StatelessWidget {
   final ValueChanged<String> onChanged;
   final String hintText;
   final FocusNode? focusNode;
+  final GestureTapCallback? onTap;
 
-  const SearchField({
-    super.key,
-    required this.controller,
-    required this.onChanged,
-    required this.hintText,
-    this.focusNode,
-  });
+  const SearchField(
+      {super.key,
+      required this.controller,
+      required this.onChanged,
+      required this.hintText,
+      this.focusNode,
+      this.onTap});
 
   @override
   Widget build(BuildContext context) {
@@ -30,6 +31,7 @@ class SearchField extends StatelessWidget {
           onEditingComplete: () {
             localFocusNode.unfocus();
           },
+          onTap: onTap,
           textInputAction: TextInputAction.done,
           style: Theme.of(context).textTheme.bodyLarge,
           decoration: InputDecoration(

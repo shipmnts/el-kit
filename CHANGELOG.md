@@ -1,3 +1,7 @@
+## 0.0.32-dev
+
+- Added ontap to SearchField and textfield;
+
 ## 0.0.31-dev
 
 - Added TextPainter,TextDirection;
