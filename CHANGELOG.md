@@ -1,3 +1,7 @@
+## 1.0.0
+
+- Release 1.0.0
+
 ## 0.0.33-dev
 
 - Change SearchField make it animated;

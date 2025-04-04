@@ -1,0 +1,10 @@
+name: Publish Dart Package
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  publish:
+    uses: dart-lang/setup-dart/.github/workflows/publish.yml@v1
