@@ -1,3 +1,7 @@
+## 0.0.33-dev
+
+- Change SearchField make it animated;
+
 ## 0.0.32-dev
 
 - Added ontap to SearchField and textfield;
