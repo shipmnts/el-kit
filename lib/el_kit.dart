@@ -58,6 +58,7 @@ export 'custom/custom_card.dart';
 export 'custom/custom_button.dart';
 export 'custom/detail_row.dart';
 export 'custom/search_field.dart';
+export 'custom/back_button.dart';
 
 export 'package:flutter/material.dart'
     show
@@ -185,7 +186,6 @@ export 'package:flutter/material.dart'
         RelativeRect,
         Rect,
         BoxShadow,
-        BackButton,
         SliverToBoxAdapter,
         SliverFillRemaining,
         NeverScrollableScrollPhysics,
