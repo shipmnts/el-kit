@@ -10,18 +10,19 @@ class AnimatedContainer extends StatelessWidget {
   final double? height;
   final EdgeInsetsGeometry? margin;
   final BoxDecoration? decoration;
+  final Matrix4? transform;
 
-  const AnimatedContainer({
-    super.key,
-    required this.child,
-    required this.duration,
-    this.curve = Curves.linear,
-    this.color,
-    this.width,
-    this.height,
-    this.margin,
-    this.decoration,
-  });
+  const AnimatedContainer(
+      {super.key,
+      required this.child,
+      required this.duration,
+      this.curve = Curves.linear,
+      this.color,
+      this.width,
+      this.height,
+      this.margin,
+      this.decoration,
+      this.transform});
 
   @override
   Widget build(BuildContext context) {
@@ -33,6 +34,7 @@ class AnimatedContainer extends StatelessWidget {
       height: height,
       margin: margin,
       decoration: decoration,
+      transform: transform,
       child: child,
     );
   }
