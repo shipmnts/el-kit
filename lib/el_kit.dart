@@ -222,4 +222,5 @@ export 'package:flutter/material.dart'
         FocusManager,
         TextDirection,
         TextPainter,
-        Matrix4;
+        Matrix4,
+        WrapAlignment;

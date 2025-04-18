@@ -1,3 +1,7 @@
+## 0.0.36-dev
+
+- Added WrapAlignment
+
 ## 0.0.35-dev
 
 - Brought in Matrix4
