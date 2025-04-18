@@ -221,4 +221,5 @@ export 'package:flutter/material.dart'
         FocusScope,
         FocusManager,
         TextDirection,
-        TextPainter;
+        TextPainter,
+        WrapAlignment;

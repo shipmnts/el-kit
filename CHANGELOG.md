@@ -1,3 +1,7 @@
+## 0.0.35-dev
+
+- Added WrapAlignment
+
 ## 0.0.34-dev
 
 - Brought in custom back button
