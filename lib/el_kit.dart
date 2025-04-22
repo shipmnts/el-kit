@@ -223,4 +223,7 @@ export 'package:flutter/material.dart'
         TextDirection,
         TextPainter,
         Matrix4,
-        WrapAlignment;
+        WrapAlignment,
+        ColorFiltered,
+        ColorFilter,
+        BlendMode;

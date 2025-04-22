@@ -1,3 +1,7 @@
+## 0.0.37-dev
+
+- Added ColorFiltered,ColorFilter,BlendMode
+
 ## 0.0.36-dev
 
 - Added WrapAlignment
