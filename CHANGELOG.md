@@ -1,3 +1,7 @@
+## 0.0.39-dev
+
+- Brought in some default localizations - DefaultMaterialLocalizations, DefaultWidgetsLocalizations, DefaultCupertinoLocalizations
+
 ## 0.0.38-dev
 
 - Added Color in BackButton
