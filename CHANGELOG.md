@@ -1,3 +1,7 @@
+## 0.0.40-dev
+
+- Brought in StateSetter
+
 ## 0.0.39-dev
 
 - Brought in some default localizations - DefaultMaterialLocalizations, DefaultWidgetsLocalizations, DefaultCupertinoLocalizations

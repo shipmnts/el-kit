@@ -227,7 +227,8 @@ export 'package:flutter/material.dart'
         ColorFiltered,
         ColorFilter,
         BlendMode,
-        DefaultMaterialLocalizations;
+        DefaultMaterialLocalizations,
+        StateSetter;
 
 export 'package:flutter/cupertino.dart'
     show DefaultWidgetsLocalizations, DefaultCupertinoLocalizations;
