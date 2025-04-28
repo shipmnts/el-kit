@@ -1,3 +1,7 @@
+## 0.0.42-dev
+
+- Change in GridView, Added SliverGridDelegateWithFixedCrossAxisCount
+
 ## 0.0.41-dev
 
 - Brought in Visibility

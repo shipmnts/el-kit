@@ -5,7 +5,7 @@ import 'package:flutter/material.dart' as material;
 class GridView extends StatelessWidget {
   final SliverGridDelegate gridDelegate;
   final IndexedWidgetBuilder itemBuilder;
-  final List items;
+  final List? items;
   final EdgeInsetsGeometry padding;
   final ScrollPhysics? physics;
   final bool shrinkWrap;
@@ -21,10 +21,11 @@ class GridView extends StatelessWidget {
   final DragStartBehavior dragStartBehavior;
   final bool keyboardDismissBehavior;
   final String? restorationId;
+  final int? itemCount;
 
   const GridView({
     super.key,
-    required this.items,
+    this.items,
     required this.gridDelegate,
     required this.itemBuilder,
     this.padding = const EdgeInsets.all(8.0),
@@ -42,6 +43,7 @@ class GridView extends StatelessWidget {
     this.dragStartBehavior = DragStartBehavior.start,
     this.keyboardDismissBehavior = false,
     this.restorationId,
+    this.itemCount,
   });
 
   @override
@@ -49,7 +51,7 @@ class GridView extends StatelessWidget {
     return material.GridView.builder(
       padding: padding,
       gridDelegate: gridDelegate,
-      itemCount: items.length,
+      itemCount: itemCount ?? items?.length,
       itemBuilder: itemBuilder,
       physics: physics,
       shrinkWrap: shrinkWrap,

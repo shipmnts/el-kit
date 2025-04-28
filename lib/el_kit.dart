@@ -227,6 +227,7 @@ export 'package:flutter/material.dart'
         ColorFiltered,
         ColorFilter,
         BlendMode,
+        SliverGridDelegateWithFixedCrossAxisCount,
         DefaultMaterialLocalizations,
         StateSetter,
         Visibility;
