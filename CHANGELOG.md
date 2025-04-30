@@ -1,3 +1,7 @@
+## 0.0.43-dev
+
+- Added some widgets for seek bar - ExcludeSemantics, SliderComponentShape, PaintingContext, SliderTheme
+
 ## 0.0.42-dev
 
 - Change in GridView, Added SliverGridDelegateWithFixedCrossAxisCount

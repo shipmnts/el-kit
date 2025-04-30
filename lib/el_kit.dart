@@ -28,7 +28,6 @@ export 'material/widgets/chip.dart';
 export 'material/widgets/flexible.dart';
 export 'material/widgets/textbutton.dart';
 export 'material/widgets/slider.dart';
-export 'material/widgets/slider_theme.dart';
 export 'material/widgets/animatedcontainer.dart';
 export 'material/widgets/navigationbar.dart';
 export 'material/widgets/valuelistenablebuilder.dart';
@@ -230,7 +229,11 @@ export 'package:flutter/material.dart'
         SliverGridDelegateWithFixedCrossAxisCount,
         DefaultMaterialLocalizations,
         StateSetter,
-        Visibility;
+        Visibility,
+        ExcludeSemantics,
+        SliderComponentShape,
+        PaintingContext,
+        SliderTheme;
 
 export 'package:flutter/cupertino.dart'
     show DefaultWidgetsLocalizations, DefaultCupertinoLocalizations;
