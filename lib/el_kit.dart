@@ -58,6 +58,7 @@ export 'custom/custom_button.dart';
 export 'custom/detail_row.dart';
 export 'custom/search_field.dart';
 export 'custom/back_button.dart';
+export 'custom/circular_icon_label.dart';
 
 export 'package:flutter/material.dart'
     show

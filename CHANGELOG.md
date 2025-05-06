@@ -1,3 +1,7 @@
+## 0.0.44-dev
+
+- Added circular_icon_label
+
 ## 0.0.43-dev
 
 - Added some widgets for seek bar - ExcludeSemantics, SliderComponentShape, PaintingContext, SliderTheme
