@@ -1,3 +1,7 @@
+## 0.0.45-dev
+
+- Added SelectableText
+
 ## 0.0.44-dev
 
 - Added circular_icon_label

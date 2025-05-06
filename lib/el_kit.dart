@@ -234,7 +234,8 @@ export 'package:flutter/material.dart'
         ExcludeSemantics,
         SliderComponentShape,
         PaintingContext,
-        SliderTheme;
+        SliderTheme,
+        SelectableText;
 
 export 'package:flutter/cupertino.dart'
     show DefaultWidgetsLocalizations, DefaultCupertinoLocalizations;
