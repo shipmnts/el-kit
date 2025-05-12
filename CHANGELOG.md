@@ -1,3 +1,7 @@
+## 0.0.46-dev
+
+- Update GestureDetector
+
 ## 0.0.45-dev
 
 - Added SelectableText
