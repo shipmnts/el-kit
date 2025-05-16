@@ -1,3 +1,7 @@
+## 0.0.47-dev
+
+- Added Checkbox
+
 ## 0.0.46-dev
 
 - Update GestureDetector
