@@ -1,3 +1,7 @@
+## 0.0.48-dev
+
+- Added WidgetSpan
+
 ## 0.0.47-dev
 
 - Added Checkbox

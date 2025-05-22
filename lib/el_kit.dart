@@ -236,7 +236,8 @@ export 'package:flutter/material.dart'
         PaintingContext,
         SliderTheme,
         SelectableText,
-        Checkbox;
+        Checkbox,
+        WidgetSpan;
 
 export 'package:flutter/cupertino.dart'
     show DefaultWidgetsLocalizations, DefaultCupertinoLocalizations;
