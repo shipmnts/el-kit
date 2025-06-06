@@ -238,7 +238,8 @@ export 'package:flutter/material.dart'
         SelectableText,
         Checkbox,
         WidgetSpan,
-        PopupMenuButton;
+        PopupMenuButton,
+        PopupMenuItem;
 
 export 'package:flutter/cupertino.dart'
     show DefaultWidgetsLocalizations, DefaultCupertinoLocalizations;
