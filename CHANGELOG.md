@@ -1,3 +1,7 @@
+## 0.0.51-dev
+
+- Added Key, LinearProgressIndicator
+
 ## 0.0.50-dev
 
 - Added PopupMenuItem

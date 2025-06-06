@@ -239,7 +239,9 @@ export 'package:flutter/material.dart'
         Checkbox,
         WidgetSpan,
         PopupMenuButton,
-        PopupMenuItem;
+        PopupMenuItem,
+        Key,
+        LinearProgressIndicator;
 
 export 'package:flutter/cupertino.dart'
     show DefaultWidgetsLocalizations, DefaultCupertinoLocalizations;
