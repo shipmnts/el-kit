@@ -19,18 +19,20 @@ class CircularIconLabel extends StatelessWidget {
 
   final TextStyle? textStyle;
 
-  const CircularIconLabel({
-    super.key,
-    required this.label,
-    required this.icon,
-    this.iconColor,
-    this.iconSize = 24,
-    this.backgroundColor,
-    this.labelWidth = 70,
-    this.circleSize = 50,
-    this.onTap,
-    this.textStyle,
-  });
+  final bool useBoxShadow;
+
+  const CircularIconLabel(
+      {super.key,
+      required this.label,
+      required this.icon,
+      this.iconColor,
+      this.iconSize = 24,
+      this.backgroundColor,
+      this.labelWidth = 70,
+      this.circleSize = 50,
+      this.onTap,
+      this.textStyle,
+      this.useBoxShadow = true});
 
   @override
   Widget build(BuildContext context) {
@@ -43,16 +45,22 @@ class CircularIconLabel extends StatelessWidget {
             width: circleSize,
             height: circleSize,
             decoration: BoxDecoration(
-              color: backgroundColor ?? const Color(0xFFFFEEE4),
-              shape: BoxShape.circle,
-              boxShadow: [
-                BoxShadow(
-                  color: const Color(0xFF303030).withValues(alpha: 0.1),
-                  blurRadius: 4,
-                  offset: const Offset(0, 2),
-                ),
-              ],
-            ),
+                color: backgroundColor ?? const Color(0xFFFFEEE4),
+                shape: BoxShape.circle,
+                boxShadow: useBoxShadow
+                    ? [
+                        BoxShadow(
+                          color: const Color(0xFF303030).withValues(alpha: 0.1),
+                          blurRadius: 4,
+                          offset: const Offset(0, 2),
+                        ),
+                      ]
+                    : null,
+                border: useBoxShadow
+                    ? null
+                    : Border.all(
+                        color: const Color.from(
+                            alpha: 0.06, red: 0, green: 0, blue: 0))),
             child: Center(
               child: Icon(
                 icon,

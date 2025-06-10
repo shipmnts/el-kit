@@ -1,3 +1,7 @@
+## 0.0.52-dev
+
+- Update CircularIconLabel
+
 ## 0.0.51-dev
 
 - Added Key, LinearProgressIndicator
