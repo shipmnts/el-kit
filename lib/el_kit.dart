@@ -240,6 +240,7 @@ export 'package:flutter/material.dart'
         WidgetSpan,
         PopupMenuButton,
         PopupMenuItem,
+        PopupMenuEntry,
         Key,
         LinearProgressIndicator;
 

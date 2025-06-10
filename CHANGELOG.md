@@ -1,3 +1,7 @@
+## 0.0.53-dev
+
+- Added PopupMenuEntry
+
 ## 0.0.52-dev
 
 - Update CircularIconLabel
