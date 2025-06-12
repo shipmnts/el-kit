@@ -1,3 +1,7 @@
+## 0.0.54-dev
+
+- Brought in IconButton's styleFrom function
+
 ## 0.0.53-dev
 
 - Added PopupMenuEntry

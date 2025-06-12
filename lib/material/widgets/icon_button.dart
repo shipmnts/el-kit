@@ -68,4 +68,48 @@ class IconButton extends StatelessWidget {
       constraints: constraints,
     );
   }
+
+  static ButtonStyle styleFrom({
+    Color? foregroundColor,
+    Color? backgroundColor,
+    Color? disabledForegroundColor,
+    Color? disabledBackgroundColor,
+    Color? focusColor,
+    Color? hoverColor,
+    Color? highlightColor,
+    Color? shadowColor,
+    Color? surfaceTintColor,
+    Color? overlayColor,
+    double? elevation,
+    Size? minimumSize,
+    Size? fixedSize,
+    Size? maximumSize,
+    double? iconSize,
+    BorderSide? side,
+    OutlinedBorder? shape,
+    EdgeInsetsGeometry? padding,
+    Duration? animationDuration,
+  }) {
+    return material.IconButton.styleFrom(
+      foregroundColor: foregroundColor,
+      backgroundColor: backgroundColor,
+      disabledForegroundColor: disabledForegroundColor,
+      disabledBackgroundColor: disabledBackgroundColor,
+      focusColor: focusColor,
+      hoverColor: hoverColor,
+      highlightColor: highlightColor,
+      shadowColor: shadowColor,
+      surfaceTintColor: surfaceTintColor,
+      overlayColor: overlayColor,
+      elevation: elevation,
+      minimumSize: minimumSize,
+      fixedSize: fixedSize,
+      maximumSize: maximumSize,
+      iconSize: iconSize,
+      side: side,
+      shape: shape,
+      padding: padding,
+      animationDuration: animationDuration,
+    );
+  }
 }
