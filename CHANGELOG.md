@@ -1,3 +1,7 @@
+## 0.0.55-dev
+
+- Change SearchField
+
 ## 0.0.54-dev
 
 - Brought in IconButton's styleFrom function

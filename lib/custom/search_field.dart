@@ -37,7 +37,7 @@ class SearchField extends StatefulWidget {
 }
 
 class _SearchFieldState extends State<SearchField> {
-  late Timer? _timer;
+  Timer? _timer;
   int _hintIndex = 0;
   late FocusNode _focusNode;
   late String _currentHintText;
