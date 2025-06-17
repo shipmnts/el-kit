@@ -1,6 +1,5 @@
 library el_kit;
 
-export 'material/widgets/text.dart';
 export 'material/widgets/column.dart';
 export 'material/widgets/align.dart';
 export 'material/widgets/center.dart';
@@ -62,6 +61,7 @@ export 'custom/circular_icon_label.dart';
 
 export 'package:flutter/material.dart'
     show
+        Text,
         StatefulWidget,
         BuildContext,
         StatelessWidget,
@@ -242,7 +242,8 @@ export 'package:flutter/material.dart'
         PopupMenuItem,
         PopupMenuEntry,
         Key,
-        LinearProgressIndicator;
+        LinearProgressIndicator,
+        BottomSheet;
 
 export 'package:flutter/cupertino.dart'
     show DefaultWidgetsLocalizations, DefaultCupertinoLocalizations;
