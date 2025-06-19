@@ -243,7 +243,8 @@ export 'package:flutter/material.dart'
         PopupMenuEntry,
         Key,
         LinearProgressIndicator,
-        BottomSheet;
+        BottomSheet,
+        Scrollable;
 
 export 'package:flutter/cupertino.dart'
     show DefaultWidgetsLocalizations, DefaultCupertinoLocalizations;
