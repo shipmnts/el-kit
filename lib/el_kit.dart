@@ -244,7 +244,9 @@ export 'package:flutter/material.dart'
         Key,
         LinearProgressIndicator,
         BottomSheet,
-        Scrollable;
+        Scrollable,
+        NetworkImage,
+        AssetImage;
 
 export 'package:flutter/cupertino.dart'
     show DefaultWidgetsLocalizations, DefaultCupertinoLocalizations;

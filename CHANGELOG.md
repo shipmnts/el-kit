@@ -1,3 +1,7 @@
+## 0.0.58-dev
+
+- Added NetworkImage, AssetImage
+
 ## 0.0.57-dev
 
 - Added Scrollable
