@@ -246,7 +246,12 @@ export 'package:flutter/material.dart'
         BottomSheet,
         Scrollable,
         NetworkImage,
-        AssetImage;
+        AssetImage,
+        ChangeNotifier,
+        TextFormField,
+        TextInputType,
+        RadioListTile,
+        CheckboxListTile;
 
 export 'package:flutter/cupertino.dart'
     show DefaultWidgetsLocalizations, DefaultCupertinoLocalizations;

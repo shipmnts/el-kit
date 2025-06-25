@@ -1,3 +1,7 @@
+## 0.0.59-dev
+
+- Added ChangeNotifier,TextFormField,TextInputType,RadioListTile,CheckboxListTile
+
 ## 0.0.58-dev
 
 - Added NetworkImage, AssetImage
