@@ -251,7 +251,10 @@ export 'package:flutter/material.dart'
         TextInputType,
         RadioListTile,
         CheckboxListTile,
-        DropdownButton;
+        DropdownButton,
+        DropdownMenuEntry,
+        DropdownMenu,
+        MenuStyle;
 
 export 'package:flutter/cupertino.dart'
     show DefaultWidgetsLocalizations, DefaultCupertinoLocalizations;
