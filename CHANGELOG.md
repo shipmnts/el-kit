@@ -1,3 +1,7 @@
+## 0.0.63-dev
+
+- Added ListTileControlAffinity
+
 ## 0.0.62-dev
 
 - Added KeyboardListener
