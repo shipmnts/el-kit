@@ -256,7 +256,8 @@ export 'package:flutter/material.dart'
         DropdownMenu,
         MenuStyle,
         KeyboardListener,
-        ListTileControlAffinity;
+        ListTileControlAffinity,
+        WidgetState;
 
 export 'package:flutter/cupertino.dart'
     show DefaultWidgetsLocalizations, DefaultCupertinoLocalizations;

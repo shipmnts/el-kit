@@ -1,3 +1,7 @@
+## 0.0.64-dev
+
+- Added WidgetState
+
 ## 0.0.63-dev
 
 - Added ListTileControlAffinity
