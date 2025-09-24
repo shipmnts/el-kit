@@ -30,7 +30,6 @@ export 'material/widgets/animatedcontainer.dart';
 export 'material/widgets/navigationbar.dart';
 export 'material/widgets/valuelistenablebuilder.dart';
 export 'material/widgets/notificationlistener.dart';
-export 'material/widgets/elevatedbutton.dart';
 export 'material/widgets/warp.dart';
 export 'material/widgets/inkwell.dart';
 export 'material/widgets/divider.dart';
@@ -257,7 +256,8 @@ export 'package:flutter/material.dart'
         MenuStyle,
         KeyboardListener,
         ListTileControlAffinity,
-        WidgetState;
+        WidgetState,
+        ElevatedButton;
 
 export 'package:flutter/cupertino.dart'
     show DefaultWidgetsLocalizations, DefaultCupertinoLocalizations;
