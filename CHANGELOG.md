@@ -1,3 +1,7 @@
+## 0.0.66-dev
+
+- Added TickerProviderStateMixin, FadeTransition, FloatingActionButton
+
 ## 0.0.65-dev
 
 - Change ElevatedButton

@@ -20,7 +20,6 @@ export 'material/widgets/grid_view.dart';
 export 'material/widgets/singlechildscrollview.dart';
 export 'material/widgets/card.dart';
 export 'material/widgets/stack.dart';
-export 'material/widgets/floatingactionbutton.dart';
 export 'material/widgets/text_field.dart';
 export 'material/widgets/chip.dart';
 export 'material/widgets/flexible.dart';
@@ -257,7 +256,10 @@ export 'package:flutter/material.dart'
         KeyboardListener,
         ListTileControlAffinity,
         WidgetState,
-        ElevatedButton;
+        ElevatedButton,
+        TickerProviderStateMixin,
+        FadeTransition,
+        FloatingActionButton;
 
 export 'package:flutter/cupertino.dart'
     show DefaultWidgetsLocalizations, DefaultCupertinoLocalizations;
