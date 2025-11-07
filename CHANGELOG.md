@@ -1,3 +1,7 @@
+## 0.0.67-dev
+
+- Added LayoutBuilder, WrapCrossAlignment
+
 ## 0.0.66-dev
 
 - Added TickerProviderStateMixin, FadeTransition, FloatingActionButton

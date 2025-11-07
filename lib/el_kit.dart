@@ -259,7 +259,9 @@ export 'package:flutter/material.dart'
         ElevatedButton,
         TickerProviderStateMixin,
         FadeTransition,
-        FloatingActionButton;
+        FloatingActionButton,
+        LayoutBuilder,
+        WrapCrossAlignment;
 
 export 'package:flutter/cupertino.dart'
     show DefaultWidgetsLocalizations, DefaultCupertinoLocalizations;
