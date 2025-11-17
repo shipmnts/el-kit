@@ -261,7 +261,9 @@ export 'package:flutter/material.dart'
         FadeTransition,
         FloatingActionButton,
         LayoutBuilder,
-        WrapCrossAlignment;
+        WrapCrossAlignment,
+        ScrollPhysics,
+        AlwaysScrollableScrollPhysics;
 
 export 'package:flutter/cupertino.dart'
     show DefaultWidgetsLocalizations, DefaultCupertinoLocalizations;

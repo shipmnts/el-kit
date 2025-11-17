@@ -1,3 +1,7 @@
+## 0.0.68-dev
+
+- Added ScrollPhysics, AlwaysScrollableScrollPhysics. Change SearchField.
+
 ## 0.0.67-dev
 
 - Added LayoutBuilder, WrapCrossAlignment

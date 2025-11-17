@@ -105,15 +105,16 @@ class _SearchFieldState extends State<SearchField> {
           decoration: InputDecoration(
             hintText: _currentHintText,
             hintStyle: Theme.of(context).textTheme.labelMedium,
-            prefixIcon: hasText
+            prefixIcon: const Icon(Icons.search_outlined, size: 20),
+            suffixIcon: hasText
                 ? IconButton(
-                    icon: const Icon(Icons.arrow_back, size: 20),
+                    icon: const Icon(Icons.close, size: 20),
                     onPressed: () {
                       widget.controller.clear();
                       widget.onChanged('');
                     },
                   )
-                : const Icon(Icons.search_outlined, size: 20),
+                : null,
             border: OutlineInputBorder(
               borderRadius: BorderRadius.circular(8),
               borderSide: BorderSide.none,
