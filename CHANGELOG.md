@@ -1,3 +1,7 @@
+## 0.0.69-dev
+
+- Added RadioGroup, because Radio and RadioListTile have some deprecated fields.
+
 ## 0.0.68-dev
 
 - Added ScrollPhysics, AlwaysScrollableScrollPhysics. Change SearchField.
