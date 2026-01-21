@@ -264,7 +264,8 @@ export 'package:flutter/material.dart'
         WrapCrossAlignment,
         ScrollPhysics,
         AlwaysScrollableScrollPhysics,
-        RadioGroup;
+        RadioGroup,
+        Autocomplete;
 
 export 'package:flutter/cupertino.dart'
     show DefaultWidgetsLocalizations, DefaultCupertinoLocalizations;
