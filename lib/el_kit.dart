@@ -266,7 +266,9 @@ export 'package:flutter/material.dart'
         AlwaysScrollableScrollPhysics,
         RadioGroup,
         Autocomplete,
-        ModalRoute;
+        ModalRoute,
+        AutofillGroup,
+        AutofillHints;
 
 export 'package:flutter/cupertino.dart'
     show DefaultWidgetsLocalizations, DefaultCupertinoLocalizations;

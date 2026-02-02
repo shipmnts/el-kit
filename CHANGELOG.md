@@ -1,3 +1,7 @@
+## 0.0.72-dev
+
+- Added AutofillGroup, AutofillHints
+
 ## 0.0.71-dev
 
 - Added ModalRoute
