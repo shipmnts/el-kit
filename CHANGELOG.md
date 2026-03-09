@@ -1,3 +1,7 @@
+## 0.0.73-dev
+
+- Added Dismissible, DismissDirection, TapRegion
+
 ## 0.0.72-dev
 
 - Added AutofillGroup, AutofillHints

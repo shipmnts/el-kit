@@ -268,7 +268,10 @@ export 'package:flutter/material.dart'
         Autocomplete,
         ModalRoute,
         AutofillGroup,
-        AutofillHints;
+        AutofillHints,
+        Dismissible,
+        DismissDirection,
+        TapRegion;
 
 export 'package:flutter/cupertino.dart'
     show DefaultWidgetsLocalizations, DefaultCupertinoLocalizations;
