@@ -271,7 +271,7 @@ export 'package:flutter/material.dart'
         AutofillHints,
         Dismissible,
         DismissDirection,
-        TapRegion;
+        TapRegion, Clip;
 
 export 'package:flutter/cupertino.dart'
     show DefaultWidgetsLocalizations, DefaultCupertinoLocalizations;

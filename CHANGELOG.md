@@ -1,3 +1,7 @@
+## 0.0.74-dev
+
+- Added Clip
+
 ## 0.0.73-dev
 
 - Added Dismissible, DismissDirection, TapRegion
