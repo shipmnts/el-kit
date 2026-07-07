@@ -11,6 +11,9 @@ class SearchField extends StatefulWidget {
   final Duration rotationDuration;
   final ValueChanged<String> onChanged;
   final GestureTapCallback? onTap;
+  /// Optional chip/widget rendered inline to the left of the text cursor.
+  /// Use this to show an active filter tag (e.g. "@File") inside the field.
+  final Widget? activeFilterWidget;
 
   const SearchField({
     super.key,
@@ -23,6 +26,7 @@ class SearchField extends StatefulWidget {
     this.rotationDuration = const Duration(milliseconds: 1500),
     required this.onChanged,
     this.onTap,
+    this.activeFilterWidget,
   })  : assert(
           !(animated && (hints == const [] || hintPrefix == null)),
           'Hints and Hint Prefix cannot be empty for animated search field',
@@ -105,8 +109,13 @@ class _SearchFieldState extends State<SearchField> {
           decoration: InputDecoration(
             hintText: _currentHintText,
             hintStyle: Theme.of(context).textTheme.labelMedium,
-            prefixIcon: const Icon(Icons.search_outlined, size: 20),
-            suffixIcon: hasText
+            // When a filter chip is active: hide the search icon and render the
+            // chip inline (as prefix). Without a chip: show the search icon.
+            prefixIcon: widget.activeFilterWidget == null
+                ? const Icon(Icons.search_outlined, size: 20)
+                : null,
+            prefix: widget.activeFilterWidget,
+            suffixIcon: hasText || widget.activeFilterWidget != null
                 ? IconButton(
                     icon: const Icon(Icons.close, size: 20),
                     onPressed: () {
@@ -121,8 +130,8 @@ class _SearchFieldState extends State<SearchField> {
             ),
             filled: true,
             fillColor: const Color(0xFFF6F7FA),
-            contentPadding: const EdgeInsets.symmetric(
-              horizontal: 15,
+            contentPadding: EdgeInsets.symmetric(
+              horizontal: widget.activeFilterWidget != null ? 8 : 15,
               vertical: 2,
             ),
           ),
